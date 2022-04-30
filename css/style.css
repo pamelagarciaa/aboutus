@@ -102,15 +102,12 @@ header li {
   .subscribe {
     background-color: #EBE1DA;
     padding: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .btn-primary {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4B5260;
+    background-color: #B45E15;
     color: white;
     font-size: 20px;
     padding: 4px 24px;
