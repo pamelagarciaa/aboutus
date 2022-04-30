@@ -102,11 +102,11 @@ header li {
   .subscribe {
     background-color: #EBE1DA;
     padding: 3%;
+    display:flex;
   }
   .btn-primary {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     background-color: #B45E15;
     color: white;
     font-size: 20px;
@@ -116,7 +116,7 @@ header li {
     border-radius: 5px;
   }
   .btn-primary:hover {
-    background-color: #B45E15;
+    background-color: #5E6678;
   }
 
   /* FOOTER */
