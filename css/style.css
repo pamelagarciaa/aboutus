@@ -102,11 +102,14 @@ header li {
   .subscribe {
     background-color: #EBE1DA;
     padding: 3%;
-    display:flex;
+    display: flex;
+  }
+  button{
+    color: white;
   }
   .btn-primary {
     display: flex;
-    justify-content: left;
+    align-items: left;
     background-color: #B45E15;
     color: white;
     font-size: 20px;
