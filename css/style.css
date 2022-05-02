@@ -65,7 +65,6 @@ header li {
   justify-content:center;
   padding-bottom: 90px;
 }
-
 .imagemission img{
   flex-basis: 90%;
   width: 200%;
@@ -76,6 +75,28 @@ header li {
   font-size: 20px;
   padding-left: 200px;
 }
+
+blockquote {
+  font-family:'Fredoka', sans-serif;
+  margin-bottom:-20px;
+  }
+  
+  blockquote p {
+      font-size:26px;
+  }
+  
+  blockquote p:before { 
+      content: open-quote;
+      font-weight: bold;
+      font-size:30px;
+      color:#CCC1BD;
+  } 
+  blockquote p:after { 
+      content: close-quote;
+      font-weight: bold;
+      font-size:30px;
+      color:#CCC1BD;
+  }
 
 /* FEATURED ARTICLES*/
 .card-deck{
@@ -97,30 +118,34 @@ header li {
     padding-bottom: 5px;
     font-family:'Fredoka', sans-serif;
   }
+  .card-extra{
+    text-align: right;
+  }
 
 /* BANNER PARTNERSHIP ELIZABETH*/
   .subscribe {
     background-color: #EBE1DA;
     padding: 3%;
     display: flex;
+    text-align: left;
+  }
+
+  button:hover {
+    background-color: #5E6678;
   }
   button{
-    color: white;
-  }
-  .btn-primary {
-    display: flex;
-    align-items: left;
-    background-color: #B45E15;
+      margin-left: 700px;
+      margin-top: 25px;
+      background-color: #B45E15;
     color: white;
     font-size: 20px;
-    padding: 4px 24px;
+    padding: 4px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
-  .btn-primary:hover {
-    background-color: #5E6678;
-  }
+    height: 40px;
+    }
+
 
   /* FOOTER */
   footer{
@@ -189,5 +214,9 @@ footer i{
     .card {
       width: 70%;
       margin-top: 10px;
+    }
+    .subscribe {
+      width: 50%;
+      margin-top: 0px;
     }
   }
