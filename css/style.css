@@ -4,7 +4,7 @@ h1{
 	font-family:'Fredoka', sans-serif;
 	}
 	p{
-	  font-size: 26px;
+	  font-size: 22px;
 	  font-family:'Fredoka', sans-serif;
 	}
 	
@@ -207,7 +207,7 @@ a:active {
 	      background-color: #B45E15;
 	    color: white;
 	    font-size: 20px;
-	    padding: 4px 20px;
+	    padding: 4px 30px;
 	    border: none;
 	    cursor: pointer;
 	    border-radius: 5px;
